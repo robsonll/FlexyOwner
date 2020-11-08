@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "174787366213",
+    "firebase_url": "https://flexy-66efe.firebaseio.com",
+    "project_id": "flexy-66efe",
+    "storage_bucket": "flexy-66efe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174787366213:android:246753031d9c097457422c",
+        "android_client_info": {
+          "package_name": "com.example.flexydev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174787366213-i04o3abr34mfaacf6ngpc8jvjrrj1m54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYSyfj9vvfcdSgsyEFWvVcuW7HzBtpqQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174787366213-i04o3abr34mfaacf6ngpc8jvjrrj1m54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174787366213:android:89afc3bb0f2434e757422c",
+        "android_client_info": {
+          "package_name": "com.example.flexyowner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174787366213-i04o3abr34mfaacf6ngpc8jvjrrj1m54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYSyfj9vvfcdSgsyEFWvVcuW7HzBtpqQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174787366213-i04o3abr34mfaacf6ngpc8jvjrrj1m54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

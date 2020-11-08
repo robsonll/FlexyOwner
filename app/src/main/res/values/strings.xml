@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Flexy Owner</string>
+    <string name="imageView">Image</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="signUp">Sign Up</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="signInWithGoogle">Sign in with Google</string>
+    <string name="navigation_drawer_open">Open Navigation Bar</string>
+    <string name="navigation_drawer_close">Close Navigation Bar</string>
+
+    <string name="btnSave">Save</string>
+    <string name="homeSide">Home</string>
+    <string name="strMenuTitle">Administrator Option</string>
+    <string name="strProducts">Products</string>
+    <string name="strBusiness">Business</string>
+
+    <string name="selectProducts">Products</string>
+    <string name="addProduct">Add Product</string>
+    <string name="editProduct">Edit Product</string>
+    <string name="productName">Product Name</string>
+    <string name="productDescription">Product Description</string>
+    <string name="productPrice">Product Price</string>
+
+
+    <string name="menuLogout">Logout</string>
+    <string name="txtViewChooseBusiness">Choose the Business</string>
+    menuLogout
+
+</resources>
