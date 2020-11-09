@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -67,6 +68,25 @@ public class AddProduct extends AppCompatActivity {
 
         btnChoose = (Button) findViewById(R.id.btnChooseImage);
         imageView = (ImageView) findViewById(R.id.imgViewProductImage);
+
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+                if ((spinner.getSelectedItem().toString().equals("main")) || (spinner.getSelectedItem().toString().equals("combo"))) {
+                    btnChoose.setVisibility(View.VISIBLE);
+                    imageView.setVisibility(View.VISIBLE);
+                }else{
+                    btnChoose.setVisibility(View.GONE);
+                    imageView.setVisibility(View.GONE);
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
 
         btnChoose.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -171,6 +191,8 @@ public class AddProduct extends AppCompatActivity {
                             progressDialog.setMessage("Uploaded "+(int)progress+"%");
                         }
                     });
+        }else{
+            createProduct("");
         }
     }
 
