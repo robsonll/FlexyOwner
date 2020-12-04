@@ -28,7 +28,7 @@
 
 
     <string name="menuLogout">Logout</string>
-    <string name="txtViewChooseBusiness">Choose the Business</string>
+    <string name="txtViewChooseBusiness">Choose a Business</string>
     menuLogout
 
 </resources>

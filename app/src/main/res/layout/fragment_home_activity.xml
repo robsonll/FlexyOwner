@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp">
+        tools:layout_editor_absoluteY="-38dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -24,9 +24,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="5dp"
-                android:fontFamily="@font/alegreya_sans_sc_medium"
+                android:fontFamily="@font/montserrat"
                 android:text="Messages"
-                android:textSize="24dp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -54,9 +54,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:fontFamily="@font/alegreya_sans_sc_medium"
+                android:fontFamily="@font/montserrat"
                 android:text="Welcome Message"
-                android:textSize="20dp"
+                android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -85,9 +85,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:fontFamily="@font/alegreya_sans_sc_medium"
+                android:fontFamily="@font/montserrat"
                 android:text="About us Message"
-                android:textSize="20dp"
+                android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -116,9 +116,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:fontFamily="@font/alegreya_sans_sc_medium"
+                android:fontFamily="@font/montserrat"
                 android:text="Products Screen Message"
-                android:textSize="20dp"
+                android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -147,9 +147,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:fontFamily="@font/alegreya_sans_sc_medium"
+                android:fontFamily="@font/montserrat"
                 android:text="Check out Message"
-                android:textSize="20dp"
+                android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -178,9 +178,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:fontFamily="@font/alegreya_sans_sc_medium"
+                android:fontFamily="@font/montserrat"
                 android:text="Payment Methods"
-                android:textSize="24dp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -223,9 +223,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:fontFamily="@font/alegreya_sans_sc_medium"
+                android:fontFamily="@font/montserrat"
                 android:text="Other"
-                android:textSize="24dp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -251,23 +251,24 @@
                 android:id="@+id/checkBoxShowAddOns"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
                 android:text="Show Extras section"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/dividerAddOns"
-                />
+                app:layout_constraintTop_toBottomOf="@+id/dividerAddOns" />
 
             <CheckBox
                 android:id="@+id/checkBoxShowDrinks"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
                 android:text="Show Drinks section"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/checkBoxShowAddOns"
-                app:layout_constraintTop_toBottomOf="@+id/dividerAddOns"
-                />
+                app:layout_constraintTop_toBottomOf="@+id/dividerAddOns" />
 
             <TextView
                 android:id="@+id/textViewBackgroundImage"
@@ -275,9 +276,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/alegreya_sans_sc_medium"
+                android:fontFamily="@font/montserrat"
                 android:text="Background Image"
-                android:textSize="24dp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -300,14 +301,14 @@
 
             <Button
                 android:id="@+id/btnChooseBgImage"
-                android:text="Choose Image"
-                android:layout_weight="1"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="Choose Image"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/dividerBackgroundImage"
-                />
+                app:layout_constraintTop_toBottomOf="@+id/dividerBackgroundImage" />
 
             <ImageView
                 android:id="@+id/imgViewBgImage"
@@ -315,17 +316,16 @@
                 android:layout_height="200dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnChooseBgImage"
-                />
+                app:layout_constraintTop_toBottomOf="@+id/btnChooseBgImage" />
 
             <Button
                 android:id="@+id/buttonSaveBusinessConfig"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:text="@string/btnSave"
-                app:layout_constraintTop_toBottomOf="@+id/imgViewBgImage"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgViewBgImage" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

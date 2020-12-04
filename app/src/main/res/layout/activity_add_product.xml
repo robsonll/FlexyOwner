@@ -34,7 +34,7 @@
         android:id="@+id/textViewTitle"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/purple_500"
         android:gravity="center"
         android:text="@string/addProduct"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
@@ -58,11 +58,10 @@
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:ems="10"
+        android:fontFamily="sans-serif-light"
         android:hint="@string/productName"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/view5"
@@ -74,14 +73,13 @@
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
         android:layout_marginTop="66dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:ems="10"
+        android:fontFamily="sans-serif-light"
         android:hint="@string/productDescription"
-        android:minLines="3"
         android:inputType="textPersonName"
+        android:minLines="3"
         app:layout_constraintEnd_toEndOf="@+id/view5"
         app:layout_constraintStart_toStartOf="@+id/view5"
         app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
@@ -91,13 +89,12 @@
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:ems="10"
+        android:fontFamily="sans-serif-light"
         android:hint="@string/productPrice"
-        android:minLines="3"
         android:inputType="textPersonName"
+        android:minLines="3"
         app:layout_constraintEnd_toEndOf="@+id/view5"
         app:layout_constraintStart_toStartOf="@+id/view5"
         app:layout_constraintTop_toBottomOf="@+id/editTextProductDescription" />
@@ -118,22 +115,25 @@
 
     <Button
         android:id="@+id/btnChooseImage"
-        android:text="Choose Image"
-        android:layout_weight="1"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:text="Choose Image"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/imgViewProductImage"
         app:layout_constraintEnd_toEndOf="@+id/view5"
         app:layout_constraintStart_toStartOf="@+id/view5"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerProductTyoe"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/spinnerProductTyoe" />
 
     <ImageView
         android:id="@+id/imgViewProductImage"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/view5"
-        app:layout_constraintTop_toBottomOf="@+id/btnChooseImage"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/btnChooseImage" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
